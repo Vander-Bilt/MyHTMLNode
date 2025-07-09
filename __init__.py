@@ -11,6 +11,7 @@ class MyHTMLNode:
         }
 
     RETURN_TYPES = ("STRING",)
+    OUTPUT_NODE = True
     RETURN_NAMES = ("html_output",)
     FUNCTION = "generate_html"
     CATEGORY = "My Custom Nodes"
