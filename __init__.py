@@ -3,7 +3,7 @@ class MyHTMLNode:
     def INPUT_TYPES(cls):
         return {
             "required": {
-                "text_content": ("STRING", {"multiline": True, "default": "<b>Hello</b> <i>ComfyUI</i>!"}),
+                "text_content": ("STRING", {"multiline": True}),
             },
             "hidden": {
                 "unique_id": "UNIQUE_ID"  # 这是一个 trick，用于在前端识别特定的节点实例
