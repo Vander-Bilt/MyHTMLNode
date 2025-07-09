@@ -1,6 +1,6 @@
 class MyHTMLNode:
     @classmethod
-    def INPUT_TYPES(s):
+    def INPUT_TYPES(cls):
         return {
             "required": {
                 "text_content": ("STRING", {"multiline": True, "default": "<b>Hello</b> <i>ComfyUI</i>!"}),
